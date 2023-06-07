@@ -1,0 +1,332 @@
+/*
+ * Android
+ * Por: Leandromeda (Leandro Gaudio Rosa)
+ */
+
+div {margin: o; padding: 0;}
+div div {background: #FFC0CB; position: relative;}
+div {float: left; position: relative;}
+
+.android{
+	height: 404px; width: 400px;
+	margin: 100px auto;
+	position: relative;
+	float: left;
+	left: 8em;
+	width: 22em;
+}
+
+.head{
+	width: 220px; height: 100px;
+	top: 32px;
+	border-radius: 110px 110px 0 0;
+	-moz-border-radius: 110px 110px 0 0;
+	-webkit-border-radius: 110px 110px 0 0;
+	
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.left_eye, .right_eye {
+	background: #fff;
+	width: 20px; height: 20px;
+	position: absolute; top: 42px;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.left_eye {left: 50px;}
+.right_eye {right: 50px;}
+
+.left_ant, .right_ant{
+	width: 6px; height: 50px;
+	position: absolute; top: -34px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.left_ant {
+	left: 50px;
+	transform: rotate(-30deg);
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+}
+
+.right_ant {
+	right: 50px;
+	transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+}
+
+.body{
+	width: 220px; height: 184px;
+	top: 40px;
+	
+	border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+}
+
+.left_arm, .right_arm, .left_leg, .right_leg {
+	width: 50px; position: absolute;
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.left_arm, .right_arm {
+	height: 150px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+
+.left_leg, .right_leg {
+	height: 80px; top: 182px;
+	border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+}
+
+.left_arm {left: -58px;}
+.right_arm {right: -58px;}
+.left_leg {left: 45px;}
+.right_leg {right: 45px;}
+
+.head:hover {
+	-webkit-transform: rotate(-5deg) translate(-4px, -8px);
+	-transform: rotate(-5deg) translate(-4px, -8px);
+	-moz-transform: rotate(-5deg) translate(-4px, -8px);
+}
+
+.left_arm:hover{
+	-webkit-transform: rotate(15deg) translate(-14px, 0);
+	-transform: rotate(15deg) translate(-14px, 0);
+	-moz-transform: rotate(15deg) translate(-14px, 0);
+}
+
+.right_arm:hover{
+	-webkit-transform: rotate(-30deg) translate(30px, 0);
+	-transform: rotate(-30deg) translate(30px, 0);
+	-moz-transform: rotate(-30deg) translate(30px, 0);
+}
+
+.androidV{
+	height: 404px; width: 400px;
+	margin: 100px auto;
+	position: relative;
+	float: left;
+	left: 29em;
+	width: 22em;
+}
+
+.headV{
+	width: 220px; height: 100px;
+	top: 32px;
+	border-radius: 110px 110px 0 0;
+	-moz-border-radius: 110px 110px 0 0;
+	-webkit-border-radius: 110px 110px 0 0;
+	background: #A4CA39;
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.left_eyeV, .right_eyeV {
+	background: #fff;
+	width: 20px; height: 20px;
+	position: absolute; top: 42px;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.left_eyeV {left: 50px;}
+.right_eyeV {right: 50px;}
+
+.left_antV, .right_antV{
+	width: 6px; height: 50px;
+	position: absolute; top: -34px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	background: #A4CA39;
+}
+
+.left_antV {
+	left: 50px;
+	transform: rotate(-30deg);
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+	background: #A4CA39;
+}
+
+.right_antV {
+	right: 50px;
+	transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	background: #A4CA39;
+}
+
+.bodyV{
+	width: 220px; height: 184px;
+	top: 40px;
+	
+	border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+	background: #A4CA39;
+}
+
+.left_armV, .right_armV, .left_legV, .right_legV {
+	width: 50px; position: absolute;
+	-webkit-transition: all 0.1s ease-in;
+	background: #A4CA39;
+}
+
+.left_armV, .right_armV {
+	height: 150px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+
+.left_legV, .right_legV {
+	height: 80px; top: 182px;
+	border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+}
+
+.left_armV {left: -58px;}
+.right_armV {right: -58px;}
+.left_legV {left: 45px;}
+.right_legV {right: 45px;}
+
+.headV:hover {
+	-webkit-transform: rotate(-5deg) translate(-4px, -8px);
+	-transform: rotate(-5deg) translate(-4px, -8px);
+	-moz-transform: rotate(-5deg) translate(-4px, -8px);
+}
+
+.left_armV:hover{
+	-webkit-transform: rotate(15deg) translate(-14px, 0);
+	-transform: rotate(15deg) translate(-14px, 0);
+	-moz-transform: rotate(15deg) translate(-14px, 0);
+}
+
+.right_armV:hover{
+	-webkit-transform: rotate(-30deg) translate(30px, 0);
+	-transform: rotate(-30deg) translate(30px, 0);
+	-moz-transform: rotate(-30deg) translate(30px, 0);
+}
+
+.androidA{
+	height: 404px; width: 400px;
+	margin: 100px auto;
+	position: relative;
+	float: left;
+	left: 19em;
+	width: 22em;
+}
+
+.headA{
+	width: 220px; height: 100px;
+	top: 32px;
+	border-radius: 110px 110px 0 0;
+	-moz-border-radius: 110px 110px 0 0;
+	-webkit-border-radius: 110px 110px 0 0;
+	background: #0000FF;
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.left_eyeA, .right_eyeA {
+	background: #fff;
+	width: 20px; height: 20px;
+	position: absolute; top: 42px;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.left_eyeA {left: 50px;}
+.right_eyeA {right: 50px;}
+
+.left_antA, .right_antA{
+	width: 6px; height: 50px;
+	position: absolute; top: -34px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	background: #0000FF;
+}
+
+.left_antA {
+	left: 50px;
+	transform: rotate(-30deg);
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+	background: #0000FF;
+}
+
+.right_antA {
+	right: 50px;
+	transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	background: #0000FF;
+}
+
+.bodyA{
+	width: 220px; height: 184px;
+	top: 40px;
+	background: #0000FF;
+	border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+}
+
+.left_armA, .right_armA, .left_legA, .right_legA {
+	width: 50px; position: absolute;
+	-webkit-transition: all 0.1s ease-in;
+	background: #0000FF;
+}
+
+.left_armA, .right_armA {
+	height: 150px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+
+.left_legA, .right_legA {
+	height: 80px; top: 182px;
+	border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+	-webkit-border-radius: 0 0 25px 25px;
+}
+
+.left_armA {left: -58px;}
+.right_armA {right: -58px;}
+.left_legA {left: 45px;}
+.right_legA {right: 45px;}
+
+.headA:hover {
+	-webkit-transform: rotate(-5deg) translate(-4px, -8px);
+	-transform: rotate(-5deg) translate(-4px, -8px);
+	-moz-transform: rotate(-5deg) translate(-4px, -8px);
+}
+
+.left_armA:hover{
+	-webkit-transform: rotate(15deg) translate(-14px, 0);
+	-transform: rotate(15deg) translate(-14px, 0);
+	-moz-transform: rotate(15deg) translate(-14px, 0);
+}
+
+.right_armA:hover{
+	-webkit-transform: rotate(-30deg) translate(30px, 0);
+	-transform: rotate(-30deg) translate(30px, 0);
+	-moz-transform: rotate(-30deg) translate(30px, 0);
+}
